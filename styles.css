@@ -1,0 +1,72 @@
+main {
+  padding: 10px 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+/* style about me */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.about-img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.about-text {
+  width: 400px;
+  font-size: 18px;
+}
+/* style portfolio */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.portfolio img {
+  border: 2px solid #000;
+}
+
+/* style contact */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.kiri {
+  width: 45%;
+}
+
+.kiri p {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* style footer */
+.footer {
+  width: 100%;
+  position: absolute;
+}
+.footer p {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #000;
+  color: #eaeaea;
+}
+/* media queries */
+@media (max-width: 677px) {
+  .about-img {
+    width: 90%;
+  }
+  .kiri {
+    width: 90%;
+  }
+}
